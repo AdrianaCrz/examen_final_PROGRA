@@ -1,0 +1,17 @@
+A) QUE SE ENTENDIO EN EL PROGRAMA Y QUE MODELOS SE PLANTEARON:
+ 
+Lo que yo entendí del programa fue como crear una gestion que nos ayudara a administrar los prestamos que realizaban los estudiantes dentro del laboratorio de la universidad. Combinando react-Native utilizando diseños y una estructura simple pero funcional que facilitara la gestion y administrara de manera correcta. Yo utilice tablas que fueran fáciles 
+
+usuarios (@users): Almacena credenciales, perfil académico (nombre, carnet, carrera, email, password) y el role (Estudiante con auto-registro o Administrador precargado). Aca dentro de usuarios se guarda toda la información ya sea del administrador como del estudiante 
+
+equipos (@equipos): dentro de equipo guarda toda la información de los prestamos del servicio de laboratorio ósea los equipos a los que los estudiantes tenían acceso de prestar. (id, nombre, descripcion, imagen) y su disponibilidad en tiempo real mediante el campo booleano disponible.
+
+prestamos (@prestamos): en prestamos se genere una tabla en donde el administrador pudiera aceptar o rechazar los prestamos
+
+
+B) QUE PARTES SE DELEGARON A LA IA Y PORQUE:
+
+Las partes que yo asigne a la IA fueron las de el diseño de la pagina para que tuviera un mejor aspecto visual y también la estructura de los dos botones al incio de sesión para que fueran diferentes. Tambien la utilice para que me explicara como podia crar la estructura de la parte de los equipos y para poder colocar imágenes.
+
+C) UNA COSA QUE LA IA HIZO MAL:
+Algo que la IA me realizo mal fue al inicio de sesión. Automáticamente me direccionaba al usuario del administrador y no me dejaba entrar al del estudiante. Lo que tuve que hacer fue Lo que tuve que hacer fue separar los accesos desde la pantalla principal creando dos botones independientes: uno para Estudiante y otro para Administrador. Tambien cuando quería hacer los users me tiraba una condición vacia y lo único que hice fue borrarla.
